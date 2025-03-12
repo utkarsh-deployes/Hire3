@@ -1,3 +1,5 @@
+# ![Hire3 Banner](your-banner-image-url)
+
 # Hire3
 
 ## Overview
