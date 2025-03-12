@@ -1,4 +1,4 @@
-# ![Hire3 Banner](your-banner-image-url)
+# ![Hire3 Banner](Hire3 - Logo & Banner.png)
 
 # Hire3
 
