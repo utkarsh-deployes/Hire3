@@ -1,69 +1,47 @@
-# Hire3: Decentralized AI-Powered Hiring Platform
+# Hire3
 
-## 🚀 Project Overview
-Hire3 is a Web3-native hiring platform that leverages **OpenServ AI** to streamline talent acquisition. It uses **decentralized identity verification, skill-based AI matching, and smart contract-enabled job agreements** to make hiring in the Web3 ecosystem faster, fairer, and more transparent.
+## Overview
+Hire3 is a revolutionary Web3-powered hiring platform that leverages AI agents to streamline talent acquisition, job matchmaking, and gig economy opportunities. By integrating OpenServ AI, Hire3 enhances recruitment processes through automated candidate screening, smart contract-based agreements, and decentralized identity verification.
 
-## 🛠️ Installation & Setup
+## How Hire3 Uses OpenServ AI
+Hire3 integrates OpenServ AI to deploy intelligent agents that handle:
+- **Automated Candidate Screening:** AI-driven filtering of job applicants based on skills, experience, and preferences.
+- **Market Intelligence & Trend Analysis:** Retrieval Augmented Generation (RAG) for analyzing hiring trends.
+- **Smart Contract Execution:** Automating agreements using on-chain execution with GOAT framework.
+- **Chatbot Assistance:** AI agents assisting recruiters and candidates in real time via Telegram bots.
+- **Daily Hiring Reports:** AI-generated PDF reports summarizing market hiring trends.
 
-### Prerequisites
-- Node.js & npm
-- Python (for AI models)
-- Docker (optional, for easy deployment)
-- Metamask (for Web3 interactions)
+## Repository & Setup
+To deploy Hire3, clone the repository and follow the setup instructions:
 
-### Clone the Repository
 ```sh
-git clone https://github.com/your-repo/hire3.git
-cd hire3
+git clone https://github.com/utkarsh-deployes/Hire3.git
+cd Hire3
+npm install
+npm start
 ```
 
-### Install Dependencies
-```sh
-npm install  # Install frontend dependencies
-pip install -r backend/requirements.txt  # Install backend dependencies
-```
+## Required Agents & Workflow
+- **Screening Agent**: Filters resumes using AI-driven analysis.
+- **Job Matching Agent**: Matches candidates with job postings.
+- **Smart Contract Agent**: Automates contract creation & execution.
+- **Market Trends Agent**: Retrieves hiring trends using RAG.
+- **Telegram Bot Agent**: Provides candidate and recruiter support.
 
-### Environment Variables
-Create a `.env` file in the root directory and configure:
-```env
-OPENAI_API_KEY=your_openai_key
-OPENSERV_AI_KEY=your_opensenv_api_key
-DATABASE_URL=your_database_connection
-```
+## Deployment
+Hire3 is deployed using OpenServ AI’s SDK and REST API. The agents interact with smart contracts via the GOAT framework for seamless hiring workflows.
 
-### Run the Project
-```sh
-npm run dev  # Start frontend
-python backend/app.py  # Start backend
-```
+## Demo Video & Documentation
+- [Project Repository](https://github.com/utkarsh-deployes/Hire3)
 
-## 🤖 Multi-Agent Workflow & OpenServ AI Integration
-Hire3 utilizes **OpenServ AI** for:
-1. **Skill-Based Matching** – AI scans job descriptions and candidates' skill data to generate the best matches.
-2. **AI-Powered Resume Screening** – Filters applicants based on past experience, verified credentials, and project portfolios.
-3. **Fraud Detection & Verification** – Uses decentralized identity verification to prevent fake profiles.
-4. **Personalized Job Recommendations** – Recommends job listings dynamically based on user interactions.
+## Future Roadmap
+- Expand AI-driven interview assessments.
+- Integrate decentralized reputation scoring for job seekers.
+- Enhance Telegram bot capabilities for instant job applications.
 
-### Agents Required:
-- **Matching Agent**: Uses OpenServ AI's NLP to match candidates with jobs.
-- **Verification Agent**: Ensures decentralized ID and credential authenticity.
-- **Salary Estimator**: AI-driven salary predictions based on experience & market trends.
+## Contribution
+Feel free to contribute! Fork the repository, create a new branch, and submit a pull request.
 
-## 🎥 Demo Video
-[Watch the screencast](#) *(Upload & link your demo video here)*
-
-## 📜 Knowledge Files
-- **Smart Contract Templates** (for automated job agreements)
-- **AI Model Configurations** (OpenServ AI JSON setup)
-- **HTML/CSS UI Templates**
-
-## 📄 Project Prompt
-> "Create an AI-powered decentralized hiring platform that ensures transparent and fair job matching using Web3 and AI agents."
-
-## 🔗 Repository
-[GitHub Repo](#) *(Upload & link your GitHub repo here)*
-
----
 
 ### 🏆 Future Plans
 - Extend OpenServ AI models for **soft skills assessment**.
