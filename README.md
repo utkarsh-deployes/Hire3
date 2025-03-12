@@ -1,4 +1,4 @@
-# ![Hire3 Banner]([Hire3 - Logo & Banner.png](https://github.com/utkarsh-deployes/Hire3/blob/a0d1fecb9f12a9f39cc938e5d85569a0c8ae083c/Hire3%20-%20Logo%20%26%20Banner.png))
+# ![Hire3 Banner](https://github.com/utkarsh-deployes/Hire3/blob/a0d1fecb9f12a9f39cc938e5d85569a0c8ae083c/Hire3%20-%20Logo%20%26%20Banner.png)
 
 # Hire3
 
